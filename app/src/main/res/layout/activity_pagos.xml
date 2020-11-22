@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="DETALLE DEL PAGO"
         tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="74dp" />
+        tools:layout_editor_absoluteY="76dp" />
 
     <TextView
         android:id="@+id/textView6"
