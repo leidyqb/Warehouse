@@ -39,7 +39,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                 }else if (dao.login(usu,pasw)==1){
                     Usuario ux=dao.getUsuario(usu,pasw);
                     Toast.makeText(Login.this, "DATOS CORRECTOS", Toast.LENGTH_SHORT).show();
-                    Intent i3= new Intent(Login.this,Cotizador.class);
+                    Intent i3= new Intent(Login.this,Planes.class);
                     i3.putExtra("ID", ux.getId());
                     startActivity(i3);
                     finish();
