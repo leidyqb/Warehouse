@@ -14,11 +14,15 @@ public class Planes extends AppCompatActivity {
         setContentView(R.layout.activity_planes);
     }
 
-    public void  llamar (View view){
-        Intent intent = new Intent(this, Cotizador.class);
-        startActivity(intent);
+    public void  llamar (View view) {
+        Bundle b = new Bundle();
+        int status = 0;
+        b.putInt("status", status);
+        Intent i = new Intent(Planes.this, Cotizador.class);
+        i.putExtras(b);
+        startActivity(i);
     }
-
 }
+
 
 
