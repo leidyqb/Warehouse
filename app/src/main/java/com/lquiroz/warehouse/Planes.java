@@ -14,7 +14,7 @@ public class Planes extends AppCompatActivity {
         setContentView(R.layout.activity_planes);
     }
 
-    public void  llamar (View view) {
+    public void  onClick (View view) {
         Bundle b = new Bundle();
         int status = 0;
         b.putInt("status", status);

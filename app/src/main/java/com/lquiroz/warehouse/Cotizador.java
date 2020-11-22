@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.Spinner;
 
 import java.util.IdentityHashMap;
 
@@ -33,7 +34,11 @@ public class Cotizador extends AppCompatActivity implements View.OnClickListener
 
     @Override
     public void onClick(View view) {
-
-    }
-
+            Bundle b = new Bundle();
+            int status = 0;
+            b.putInt("status", status);
+            Intent i = new Intent(Cotizador.this, Detalle_Cotizador01.class);
+            i.putExtras(b);
+            startActivity(i);
+        }
 }
