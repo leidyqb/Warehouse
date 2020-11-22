@@ -62,7 +62,7 @@
         android:layout_marginBottom="40dp"
         android:contentDescription="@string/cotizar"
         android:text="@string/cotizar"
-        android:onClick="acti"
+        android:onClick="llamar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
