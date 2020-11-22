@@ -2,6 +2,7 @@ package com.lquiroz.warehouse;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.content.Intent;
@@ -14,7 +15,7 @@ public class Planes extends AppCompatActivity {
         setContentView(R.layout.activity_planes);
     }
 
-    public void  onClick (View view) {
+    public void  llamar (View view){
         Bundle b = new Bundle();
         int status = 0;
         b.putInt("status", status);
@@ -22,7 +23,7 @@ public class Planes extends AppCompatActivity {
         i.putExtras(b);
         startActivity(i);
     }
-}
 
+}
 
 
