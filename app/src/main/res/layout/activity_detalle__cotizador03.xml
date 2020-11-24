@@ -10,41 +10,64 @@
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="24dp"
         android:text="TE RECOMENDAMOS EL SIGUIENTE PLAN:"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="96dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView13"
         android:layout_width="300dp"
         android:layout_height="400dp"
-        app:srcCompat="@drawable/plan3int"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="315dp" />
+        android:layout_marginTop="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/plan3int" />
 
     <ImageView
         android:id="@+id/imageView14"
         android:layout_width="300dp"
         android:layout_height="400dp"
-        app:srcCompat="@drawable/plan3"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="75dp" />
+        android:layout_marginTop="200dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/plan3" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:layout_marginEnd="120dp"
         android:text="CONTRATAR PLAN"
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="636dp" />
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="316dp"
+        android:layout_marginEnd="40dp"
         android:text="CANCELAR"
-        tools:layout_editor_absoluteX="232dp"
-        tools:layout_editor_absoluteY="636dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView13"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

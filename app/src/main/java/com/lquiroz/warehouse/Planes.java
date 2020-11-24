@@ -19,7 +19,7 @@ public class Planes extends AppCompatActivity {
         Bundle b = new Bundle();
         int status = 0;
         b.putInt("status", status);
-        Intent i = new Intent(Planes.this, Cotizador.class);
+        Intent i = new Intent(Planes.this, Cotizando.class);
         i.putExtras(b);
         startActivity(i);
     }
