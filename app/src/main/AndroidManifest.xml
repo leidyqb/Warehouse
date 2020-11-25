@@ -16,7 +16,6 @@
         <activity android:name=".Pagos" />
         <activity android:name=".Planes" />
         <activity android:name=".RegistrarUsuario" />
-        <activity android:name=".Cotizador" />
         <activity android:name=".Login" />
         <activity android:name=".MainActivity">
             <intent-filter>
