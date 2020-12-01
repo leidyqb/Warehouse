@@ -40,7 +40,7 @@ public class Pagos extends AppCompatActivity {
                     alertBuilder.setTitle("Confirmar antes de pagar");
                     alertBuilder.setMessage("Número de tarjeta: " + cardForm.getCardNumber() + "\n" +
                             "Fecha de expiración: " + cardForm.getExpirationDateEditText().getText().toString() + "\n" +
-                            "CVV: " + cardForm.getCvv() + "\n" +
+                            "CVV: " + "***" + "\n" +
                             "Codigo Postal: " + cardForm.getPostalCode() + "\n" +
                             "Número de celular: " + cardForm.getMobileNumber());
                     alertBuilder.setPositiveButton("Confirmar", new DialogInterface.OnClickListener(){
