@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Warehouse</string>
+    <string name="_02">02</string>
+    <string name="cotizar">Cotizar</string>
+    <string name="_03">03</string>
+    <string name="planes_disponibles">PLANES DISPONIBLES</string>
+    <string name="_01">01</string>
+    <string name="label_buy_now" />
+    <string name="pagar">PAGAR</string>
+</resources>
