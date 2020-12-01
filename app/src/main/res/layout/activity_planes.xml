@@ -67,6 +67,17 @@
         android:textStyle=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <Button
+        android:id="@+id/btnUbicacion"
+        android:layout_width="111dp"
+        android:layout_height="49dp"
+        android:text="Ubicanos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 </androidx.constraintlayout.widget.ConstraintLayout>
