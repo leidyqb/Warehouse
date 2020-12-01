@@ -48,7 +48,7 @@ public class MyFirebaseMessaging extends FirebaseMessagingService {
         PendingIntent pendingIntent = PendingIntent.getActivity(this, MyNotification.NOTIFICATION_ID, intent, PendingIntent.FLAG_ONE_SHOT);
 
         MyNotification notification = new MyNotification(this, MyNotification.CHANNEL_ID_NOTIFICATIONS);
-        notification.build(R.drawable.ic_launcher_foreground, title, msg, pendingIntent);
+        notification.build(R.drawable.ic_baseline_mood_24, title, msg, pendingIntent);
         notification.addChannel("Notificaciones", NotificationManager.IMPORTANCE_DEFAULT);
         notification.createChannelGroup(MyNotification.CHANNEL_GROUP_GENERAL, R.string.common_google_play_services_notification_channel_name);
         notification.show(MyNotification.NOTIFICATION_ID);
