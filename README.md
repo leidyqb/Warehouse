@@ -15,4 +15,5 @@ https://trello.com/b/sCccWtBg/warehousepe
 Documentación:
 https://drive.google.com/drive/folders/11bsCd2jNt-4UeQnefb28JCo-PBdAPUOE?usp=sharing
 
-ruta/al/asset:HOME.jpg
+https://raw.githubusercontent.com/assets/HOME.jpg
+
