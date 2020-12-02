@@ -15,6 +15,6 @@ https://trello.com/b/sCccWtBg/warehousepe
 Documentación:
 https://drive.google.com/drive/folders/11bsCd2jNt-4UeQnefb28JCo-PBdAPUOE?usp=sharing
 
- ![alt text](HOME.jpg) 
+ ![alt text](HOME.jpg) ![alt text](PLAN.jpg)  ![alt text](MAPA.jpg) ![alt text](PAGO.jpg) ![alt text](COTIZADOR.jpg) ![alt text](CONFIRMACION.jpg) 
 
 
