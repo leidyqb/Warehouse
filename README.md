@@ -15,4 +15,4 @@ https://trello.com/b/sCccWtBg/warehousepe
 Documentación:
 https://drive.google.com/drive/folders/11bsCd2jNt-4UeQnefb28JCo-PBdAPUOE?usp=sharing
 
-<img src="https://prnt.sc/vtz830" alt="" />
+ruta/al/asset:HOME.jpg
