@@ -15,6 +15,6 @@ https://trello.com/b/sCccWtBg/warehousepe
 Documentación:
 https://drive.google.com/drive/folders/11bsCd2jNt-4UeQnefb28JCo-PBdAPUOE?usp=sharing
 
- ![alt text](https://prnt.sc/vtzcas) 
+ ![alt text](HOME.jpg) 
 
 
